@@ -32,7 +32,7 @@ import { BACKEND_URL } from "../config";
                 <div>
                 <div className="px-10">
                     <div className=" text-3xl font-extrabold ">
-                        Create an Account
+                        {type === "signup" ? "Create an Account" : "Login to Account"}
                     </div>
                     <div className="text-slate-500 mt-1">
                         {type === "signin" ? "Don't have account" : "Already have an Account?"}  
