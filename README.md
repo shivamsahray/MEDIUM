@@ -27,8 +27,9 @@ Users can create accounts, log in, publish blogs, and read blogs written by othe
 ---
 
 ## 📸 Screenshots
-<img width="960" height="507" alt="image" src="https://github.com/user-attachments/assets/79dd3250-fc30-4211-ad1c-f806ffb8342c" />
-<img width="960" height="507" alt="image" src="https://github.com/user-attachments/assets/1145c02e-b116-44ca-98d6-f8a943df8677" />
+<img width="480" height="253" alt="image" src="https://github.com/user-attachments/assets/79dd3250-fc30-4211-ad1c-f806ffb8342c" />
+<img width="480" height="253" alt="image" src="https://github.com/user-attachments/assets/1145c02e-b116-44ca-98d6-f8a943df8677" />
+<img width="480" height="253" alt="image" src="https://github.com/user-attachments/assets/8d7302e7-1850-4712-a529-ead9d89af37f" />
 
 
 ---
