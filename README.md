@@ -41,6 +41,32 @@ Make sure you have installed:
 ### Clone the Repository
 ```bash
 git clone https://github.com/shivamsahray/MEDIUM.git
-cd MEDIUM```
+cd MEDIUM
+```
 ---
 ### Install Dependencies
+```bash
+npm install
+```
+### Run Development Server
+```bash
+npm run dev
+```
+The app will run on: http://localhost:5173
+
+---
+
+### Future Improvements
+- [Add categories & tags for blogs]
+- [Implement search functionality]
+- [Enable comment & likes system]
+- [Improve editor experience]
+
+---
+
+### 👨‍💻 Author
+## Shivam Sahray
+
+- [Github : @shivamsahray]
+  
+
