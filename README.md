@@ -51,8 +51,8 @@ The project is divided into three main directories:
 2. **Install frontend dependencies:**
 
   ```Bash
-    cd frontend
-    npm install
+  cd frontend
+  npm install
 
 3. **Install backend dependencies:**
 
