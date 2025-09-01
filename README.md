@@ -21,8 +21,8 @@ Users can create accounts, log in, publish blogs, and read blogs written by othe
 ## 🛠️ Tech Stack
 **Frontend:** React.js, Tailwind CSS  
 **Backend:** Node.js, Express.js  
-**Database:** MongoDB  
-**Deployment:** Netlify (Frontend), [Your Backend Hosting]  
+**Database:** Postgres  
+**Deployment:** Netlify (Frontend), Wrangler (Backend)  
 
 ---
 
@@ -48,7 +48,7 @@ cd MEDIUM
 ```
 ---
 ### Install Dependencies
-```bash
+```terminal
 npm install
 ```
 ### Run Development Server
