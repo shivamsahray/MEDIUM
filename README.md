@@ -27,7 +27,9 @@ Users can create accounts, log in, publish blogs, and read blogs written by othe
 ---
 
 ## 📸 Screenshots
-(Add screenshots of your project here, e.g. Homepage, Blog Page, Create Blog Page)
+<img width="960" height="507" alt="image" src="https://github.com/user-attachments/assets/79dd3250-fc30-4211-ad1c-f806ffb8342c" />
+<img width="960" height="507" alt="image" src="https://github.com/user-attachments/assets/1145c02e-b116-44ca-98d6-f8a943df8677" />
+
 
 ---
 
@@ -57,16 +59,16 @@ The app will run on: http://localhost:5173
 ---
 
 ### Future Improvements
-- [Add categories & tags for blogs]
-- [Implement search functionality]
-- [Enable comment & likes system]
-- [Improve editor experience]
+- Add categories & tags for blogs
+- Implement search functionality
+- Enable comment & likes system
+- Improve editor experience
 
 ---
 
 ### 👨‍💻 Author
 ## Shivam Sahray
 
-- [Github : @shivamsahray]
+- Github : [@shivamsahray](https://github.com/shivamsahray)
   
 
