@@ -1,112 +1,46 @@
-# Medium Blogging Website
+# 📝 MEDDIUM – A Blogging Platform
 
-This is a full-stack blogging website built with React, Node.js, and Prisma.
+A full-stack blogging application inspired by **Medium**, built using **React.js** for the frontend and a backend API for authentication and blog management.  
 
-## Table of Contents
+Users can create accounts, log in, publish blogs, and read blogs written by others.  
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Database Schema](#database-schema)
-- [API Endpoints](#api-endpoints)
+🔗 **Live Demo:** [meddium.netlify.app](https://meddium.netlify.app/)  
+🔗 **Repository:** [GitHub Repo](https://github.com/shivamsahray/MEDIUM)
 
-## Features
+---
 
-- User authentication (signup and signin)
-- Create, read, update, and delete blog posts
-- View all blog posts
-- View a single blog post by its ID
+## 🚀 Features
+- **User Authentication** – Sign up and log in using email & password.  
+- **Create Blogs** – Write and publish your own blogs.  
+- **Read Blogs** – View blogs from different users.  
+- **Blog Details Page** – Open and read any blog in detail.  
+- **Responsive UI** – Works seamlessly on desktop and mobile.  
 
-## Technologies Used
+---
 
-- **Frontend:** React, TypeScript, Vite, Tailwind CSS
-- **Backend:** Node.js, Hono, Prisma, PostgreSQL
-- **Common:** Zod for validation
+## 🛠️ Tech Stack
+**Frontend:** React.js, Tailwind CSS  
+**Backend:** Node.js, Express.js  
+**Database:** MongoDB  
+**Deployment:** Netlify (Frontend), [Your Backend Hosting]  
 
-## Project Structure
+---
 
-The project is divided into three main directories:
+## 📸 Screenshots
+(Add screenshots of your project here, e.g. Homepage, Blog Page, Create Blog Page)
 
-- `frontend`: Contains the React frontend application.
-- `backend`: Contains the Node.js backend server with Hono and Prisma.
-- `common`: Contains shared code between the frontend and backend, such as validation schemas.
+---
 
-## Getting Started
+## ⚡ Getting Started
 
 ### Prerequisites
+Make sure you have installed:
+- Node.js & npm  
+- MongoDB (for backend)  
 
-- Node.js
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/shivamsahray/medium.git](https://github.com/shivamsahray/medium.git)
-
-2. **Install frontend dependencies:**
-
-  ```Bash
-  cd frontend
-  npm install
-
-3. **Install backend dependencies:**
-
-  ```Bash
-    cd ../backend
-    npm install
-
-**Usage**
-1. **Start the frontend development server:**
-
-  ```Bash
-    cd frontend
-    npm run dev
-
-2. **Start the backend server:**
-
-  ```Bash
-    cd ../backend
-    npm run dev
-
-**Database Schema**
-The database schema is defined in backend/prisma/schema.prisma. It consists of two models: User and Post.
-
-User Model
-  ```Field	Type	Description
-  id	String	Unique identifier for the user (UUID)
-  email	String	User's email address (unique)
-  name	String	User's name (optional)
-  password	String	User's password
-  posts	Post[]	List of posts by the user
-
-```Export to Sheets
-
-
-**Post Model**
-  ```Field	Type	Description
-  id	String	Unique identifier for the post (UUID)
-  title	String	Title of the post
-  content	String	Content of the post
-  published	Boolean	Whether the post is published or not (default: false)
-  author	User	The author of the post
-  authorId	String	Foreign key for the author
-
-```Export to Sheets
-
-**API Endpoints**
-The backend API endpoints are defined in backend/src/routes/.
-
-**User Routes** ```(/api/v1/user)
--POST /signup: Create a new user.
--POST /signin: Log in a user.
-
-**Blog Routes**  ```(/api/v1/blog)
--POST /: Create a new blog post.
--PUT /: Update a blog post.
--GET /bulk: Get all blog posts.
--GET /:id: Get a single blog post by its ID.
+### Clone the Repository
+```bash
+git clone https://github.com/shivamsahray/MEDIUM.git
+cd MEDIUM```
+---
+### Install Dependencies
